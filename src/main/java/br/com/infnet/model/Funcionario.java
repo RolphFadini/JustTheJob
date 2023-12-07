@@ -1,8 +1,8 @@
-package br.com.infnet;
+package br.com.infnet.model;
 
 import lombok.Data;
 
 @Data
 public class Funcionario extends Pessoa {
-    private int perfil;
+    private String perfil;
 }

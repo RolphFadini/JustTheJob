@@ -1,8 +1,8 @@
-package br.com.infnet;
+package br.com.infnet.model;
 
 public abstract class Pessoa {
     private String nome;
-    private String telefone;
     private String email;
+    private String telefone;
     private long cpf;
 }
